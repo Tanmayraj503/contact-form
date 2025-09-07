@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <section id="contact">
+        <div class="container">
+            <div class="contact-header">
+                <div class="contact-title">
+                    <h1>
+                        Get in <span class="gradient-title">Touch</span>
+                    </h1>
+                </div>
+                <p class="contact-subtitle">
+                    Have a project in mind? Let's work together to bring your ideas to life
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h2 class="left-contact-title">Let's Connect</h2>
+
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="textt">
+                            <h3 class="box-title">Address</h3>
+                            <p class="box-text">Laxmi Vihar <br> Burari,
+                                Delhi-110084 <br> India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="textt">
+                            <h3 class="box-title">Email Address</h3>
+                            <p class="box-text">tanmayraj707@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="textt">
+                            <h3 class="box-title">Phone</h3>
+                            <p class="box-text">+91 8506827452</p>
+                        </div>
+                    </div>
+
+
+                    <div class="sociallinks">
+                        <a href="https://github.com/tanmayraj707"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tanmay-raj-707/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/tanmayraj707"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tanmayraj707/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form id="contact-form" action="https://formspree.io/f/xqadwdpe" method="POST">
+                        <div class="form-box">
+                            <div class="form">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <input type="text" name="subject" placeholder="Subject" required>
+                                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="toast"></div>
+    </section>
+    <footer>
+        <p class="footer-text">&copy; 2025 Tanmay Raj. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
