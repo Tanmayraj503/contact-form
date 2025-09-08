@@ -346,7 +346,7 @@ footer {
             min-height: 120vh;
         }
         .contact-title{
-            font-size: 26px;
+            font-size: 24px;
         }
 
         #contact {
@@ -388,4 +388,17 @@ footer {
         footer {
             margin-top: 10px;
         }
+
+        .contact-subtitle{
+            font-size: 20px; 
+        }
+        .box-title {
+            font-size: 19px;
+        }
+        .textt{
+            font-size: 15px;
+        }
+         .left-contact-title {
+        font-size: 24px;
+         }
     }
