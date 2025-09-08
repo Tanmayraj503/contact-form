@@ -345,6 +345,9 @@ footer {
             padding: 5px;
             min-height: 120vh;
         }
+        .contact-title{
+            font-size: 32px;
+        }
 
         #contact {
             min-height: 130vh;
@@ -383,6 +386,6 @@ footer {
         }
 
         footer {
-            margin-top: auto;
+            margin-top: 10px;
         }
     }
