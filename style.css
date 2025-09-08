@@ -7,7 +7,7 @@
 body {
     background-color: #081f29;
     overflow-y: scroll;
-     height: 100vh;
+    height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -289,116 +289,120 @@ footer {
     }
 }
 
-    /* Mobile Styles */
-    @media screen and (max-width: 768px) {
-        .container {
-            max-width: 95%;
-            padding: 10px 0;
-        }
-
-        #contact {
-            min-height: 118vh;
-        }
-
-        .contact-content {
-            flex-direction: column;
-            align-items: center;
-            gap: 30px;
-        }
-
-        .contact-left,
-        .contact-right {
-            width: 90%;
-            max-width: none;
-            margin: 0;
-        }
-
-        .contact-left {
-            text-align: center;
-        }
-
-        .contact-box {
-            justify-content: flex-start;
-            text-align: left;
-        }
-
-        .sociallinks {
-            justify-content: center;
-            gap: 10px;
-        }
-
-        .form-box {
-            margin-top: 0;
-        }
-
-        footer {
-            height: 80px;
-            padding: 20px;
-            margin-top: 70px;
-        }
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 95%;
+        padding: 10px 0;
     }
 
-    /* Small Mobile Styles */
-    @media screen and (max-width: 480px) {
-        .container {
-            max-width: 98%;
-            padding: 5px;
-            min-height: 120vh;
-        }
-        .contact-title{
-            font-size: 24px;
-        }
+    #contact {
+        min-height: 118vh;
+    }
 
-        #contact {
-            min-height: 130vh;
-        }
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
 
-        .contact-header {
-            margin-top: 10px;
-        }
+    .contact-left,
+    .contact-right {
+        width: 90%;
+        max-width: none;
+        margin: 0;
+    }
 
-        .contact-content {
-            margin-top: 20px;
-            gap: 20px;
-        }
+    .contact-left {
+        text-align: center;
+    }
 
-        .contact-box {
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-        }
+    .contact-box {
+        justify-content: flex-start;
+        text-align: left;
+    }
 
-        .textt {
-            margin-left: 15px;
-            margin-top: 5px;
-        }
+    .sociallinks {
+        justify-content: center;
+        gap: 10px;
+    }
 
-        .sociallinks {
-            gap: 8px;
-        }
+    .form-box {
+        margin-top: 0;
+    }
 
-        .form input,
-        .form textarea {
-            margin-bottom: 20px;
-        }
+    footer {
+        height: 80px;
+        padding: 20px;
+        margin-top: 70px;
+    }
+}
 
-        .form-box {
-            padding: 15px;
-        }
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 98%;
+        padding: 5px;
+        min-height: 120vh;
+    }
 
-        footer {
-            margin-top: 10px;
-        }
-
-        .contact-subtitle{
-            font-size: 20px; 
-        }
-        .box-title {
-            font-size: 19px;
-        }
-        .textt{
-            font-size: 15px;
-        }
-         .left-contact-title {
+    .contact-title {
         font-size: 24px;
-         }
     }
+
+    #contact {
+        min-height: 130vh;
+    }
+
+    .contact-header {
+        margin-top: 10px;
+    }
+
+    .contact-content {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .contact-box {
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+    .textt {
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .sociallinks {
+        gap: 8px;
+    }
+
+    .form input,
+    .form textarea {
+        margin-bottom: 20px;
+    }
+
+    .form-box {
+        padding: 15px;
+    }
+
+    footer {
+        margin-top: 5px;
+    }
+
+    .contact-subtitle {
+        font-size: 20px;
+    }
+
+    .box-title {
+        font-size: 19px;
+    }
+
+    .textt {
+        font-size: 15px;
+    }
+
+    .left-contact-title {
+        font-size: 24px;
+    }
+}
