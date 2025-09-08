@@ -7,6 +7,7 @@
 body {
     background-color: #081f29;
     overflow-y: scroll;
+     height: 100vh;
 }
 
 body::-webkit-scrollbar {
@@ -18,7 +19,6 @@ body::-webkit-scrollbar {
     color: white;
     max-width: 90%;
     margin: 0 auto;
-    height: 100vh;
     display: flex;
     /* justify-content: center; */
     align-items: center;
